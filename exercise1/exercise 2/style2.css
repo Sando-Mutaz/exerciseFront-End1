@@ -1,0 +1,39 @@
+html {
+  margin: 5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+div.table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  flex-direction: column;
+}
+
+img {
+  object-fit: cover;
+  width: 160px;
+  height: 80px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #fea500;
+}
+
+button:hover {
+  appearance: button;
+  background-color: #3b7b8a;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 100%;
+  position: relative;
+  text-align: center;
+}
